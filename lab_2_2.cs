@@ -29,7 +29,8 @@ namespace Labs_2
                     }
                     Console.Write(" = {0}", this.sum[j - 1]);
                     Console.WriteLine();
-                }           
+                }
+            Console.WriteLine();           
         }
         public override string Description(){
            return @"2.2. Найти суммы элементов двухмерного массива целых чисел, расположенных на линиях, параллельных главной диагонали, и ниже ее.";
