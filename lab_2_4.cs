@@ -3,6 +3,10 @@ using System;
 namespace Labs_2
 {
     class Lab_2_4: ILab{
+
+        private double[,] items;
+        private const int col = 6;
+        private const int row = 5;
         public override void Do(){
 
         }
