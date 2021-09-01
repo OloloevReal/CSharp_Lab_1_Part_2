@@ -14,8 +14,13 @@ namespace Labs_2
             // Labs.Add(new Lab_2_4());
             // Labs.Add(new Lab_2_5());
             // Labs.Add(new Lab_2_6());
-            Labs.Add(new Lab_2_7());
-            // Labs.Add(new Lab_2_8());
+            // Labs.Add(new Lab_2_7());
+            Labs.Add(new Lab_2_8());
+            Labs.Add(new Lab_2_9());
+            Labs.Add(new Lab_2_10());
+            Labs.Add(new Lab_2_11());
+            Labs.Add(new Lab_2_12());
+            Labs.Add(new Lab_2_13());
             
             foreach(ILab l in Labs){
                 Console.WriteLine(l.Description());
