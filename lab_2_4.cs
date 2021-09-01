@@ -4,7 +4,6 @@ namespace Labs_2
 {
     class Lab_2_4: ILab{
 
-        // транспонирование матрицы
         // только для квадратной матрицы?
 
         private double[,] items;

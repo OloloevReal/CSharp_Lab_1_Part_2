@@ -16,6 +16,11 @@ namespace Labs_2
             _fillarray<int>(items, ()=>rand.Next(100));
         }
 
+        public static void FillArray(float[,] items){
+            Random rand = new Random(DateTime.Now.Millisecond);
+            _fillarray<float>(items, ()=>(float)(rand.Next(100) * rand.NextDouble()));
+        }
+
         public static void FillArray(double[,] items){
             Random rand = new Random(DateTime.Now.Millisecond);
             _fillarray<double>(items, ()=>rand.Next(100) * rand.NextDouble());
